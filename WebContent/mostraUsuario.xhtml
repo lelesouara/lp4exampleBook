@@ -1,0 +1,15 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html">
+	<body>
+		<h1>Mostrar usuário</h1>
+		<hr />
+		Nome: <h:outputText value="#{usuarioBean.nome}" /><br/>
+		Email: <h:outputText value="#{usuarioBean.email}" /><br/>
+		Senha: <h:outputText value="#{usuarioBean.senha}" /><br/>
+		<h:form>
+			<h:commandLink action="index" value="Inicio" />
+		</h:form>
+	</body>
+</html>
